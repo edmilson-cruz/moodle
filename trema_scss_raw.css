@@ -1,0 +1,33 @@
+/*
+MENU LATERAL
+*/
+.courseindex-link.text-truncate {
+font-size: 0.85em; /* reduz o tamanho de fonte em 85% */
+overflow: hidden; /*  mantém oculto o excesso de espaço ocupado */
+white-space: normal; /* quebra automaticamente a linha dos títulos */
+}
+.icon {
+padding-top: 4px; /* ajusta a margem interna no topo dos ícones de seta e cadeado */
+margin-right: 0rem; /* retira a margem direita dos ícones de seta e cadeado */
+float: right; /* flutua o ícone para reduzir o espaço ocupado */
+}
+.dragicon.ml-auto {
+display: none; /* oculta a caixa que contém os ícones de seta e cadeado */
+}
+.courseindex .courseindex-item {
+border-bottom: 1px solid rgba(255, 255, 255, .5); /* adiciona borda inferior nos submenus */
+padding: .3rem .5rem; /* ajusta as margens internas dos submenus */
+}
+.courseindex .courseindex-section {
+border-bottom: 2px solid rgba(255, 255, 255, .5); /* adiciona borda inferior nas seções */
+border-left: 0px solid transparent; /* retira a borda esquerda das seções */
+}
+/*
+ATIVIDADES
+*/
+.text-muted.text-uppercase.small.line-height-3 {
+display: none; /* oculta o tipo da atividade no título do conteúdo acessado */
+}
+.page-header-headings {
+margin: auto; /* ajusta o alinhamento vertical do título do conteúdo acessado */
+}
